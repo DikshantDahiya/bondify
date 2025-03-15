@@ -18,7 +18,7 @@ const SuggestedUsers = () => {
   const handleFollowToggle = async (targetUserId) => {
     try {
       const res = await axios.post(
-        `http://localhost:8000/api/v1/user/followorunfollow/${targetUserId}`,
+        `https://bondify-4u50.onrender.com/api/v1/user/followorunfollow/${targetUserId}`,
         {},
         { withCredentials: true }
       );

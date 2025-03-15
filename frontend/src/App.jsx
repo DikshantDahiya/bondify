@@ -54,7 +54,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     if (user) {
-      const socketio = io("http://localhost:8000", {
+      const socketio = io("https://bondify-4u50.onrender.com", {
         query: {
           userId: user?._id,
         },
