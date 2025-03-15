@@ -5,7 +5,7 @@ import axios from 'axios';
 import { toast } from 'sonner';
 import { Link ,useNavigate} from "react-router-dom";
 import { Loader2 } from 'lucide-react';
-import { useDispatch } from 'react-redux';
+import { useDispatch,useSelector } from 'react-redux';
 import { setAuthUser } from '@/redux/authSlice';
 
 
